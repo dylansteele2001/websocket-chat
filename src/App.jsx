@@ -24,8 +24,8 @@ export default function App() {
   return (
     <div style={styles.page}>
       <div style={styles.container}>
-        <h1 style={styles.title}>The Gif Bar</h1>
-
+        <h1 style={styles.title}>The Giff Bar</h1>
+        <p style={styles.paragraph}>Please select a giff</p>
         <div style={styles.searchBar}>
           <input
             value={query}
@@ -70,6 +70,12 @@ const styles = {
     textAlign: "center",
     marginBottom: 20,
   },
+
+  paragraphs: {
+    textAlign: "center",
+    marginBottom: 20,
+  },
+
   searchBar: {
     display: "flex",
     justifyContent: "center",
@@ -86,7 +92,7 @@ const styles = {
     padding: "10px 16px",
     borderRadius: 8,
     border: "none",
-    background: "#ff4d6d",
+    background: "#be4dff",
     color: "white",
     cursor: "pointer",
   },
